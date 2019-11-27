@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    border: solid;
+    overflow: hidden;
+    align-items: center;
+}
+
+ngb-carousel {
+    margin: auto;
+    width: 60vw;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+app-card:nth-child(1) {}
+
+#izquierda::selection {
+    background: transparent;
+}
+
+#izquierda:hover {
+    opacity: 0.7;
+}
+
+#izquierda {
+    position: absolute;
+    top: 40%;
+    font-size: 60px;
+}
+
+#derecha::selection {
+    background: transparent;
+}
+
+#derecha:hover {
+    opacity: 0.7;
+}
+
+#derecha {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    font-size: 60px;
+}
