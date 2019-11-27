@@ -9,7 +9,8 @@ export class ServiceService {
 
 
   obtenerPorNombre(nombre){
-    return this.http.get("http://localhost:3000/name?ciudad="+nombre);
+    //return this.http.get("http://localhost:3000/name?ciudad="+nombre);
+    return this.http.get("http://n3gro.com:3000/name?ciudad="+nombre);
   }
 
 }
