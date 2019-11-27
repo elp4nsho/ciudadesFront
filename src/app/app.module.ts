@@ -9,7 +9,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AlertModule } from 'ngx-bootstrap';
 
 
-const config: SocketIoConfig = { url: 'http://localhost:3000', options: {} };
+const config: SocketIoConfig = { url: 'http://n3gro.com:3000', options: {} };
+/* const config: SocketIoConfig = { url: 'http://localhost:3000', options: {} }; */
 
 @NgModule({
   declarations: [
